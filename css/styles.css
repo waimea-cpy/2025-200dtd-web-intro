@@ -43,7 +43,7 @@ section.demo div {
     background-color: #6666;
     padding: 1rem;
     border-radius: 1rem;
-    height: 15rem;
+    min-height: 15rem;
 }
 
 section.demo div p {
@@ -56,5 +56,58 @@ section.demo div p {
     width: 1.2em;
     margin: 0;
     text-align: center;
+}
+
+
+/* HORIZONTAL TASKS */
+
+section#task2 div {
+    justify-content: center;
+}
+
+section#task3 div {
+    justify-content: space-between;
+}
+
+section#task4 div {
+    justify-content: flex-end;
+}
+
+
+/* VERTICAL TASKS */
+
+section#task5 div {
+    align-items: flex-start;
+}
+
+section#task6 div {
+    align-items: flex-end;
+}
+
+section#task7 div {
+    align-items: center;
+}
+
+
+/* FULLY CENTRED */
+
+section#task8 div {
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* WRAPPING */
+
+section#task9 div {
+    flex-wrap: wrap;
+}
+
+section#task10 div {
+    flex-direction: row-reverse;
+}
+
+section#task11 div {
+    flex-direction: column;
 }
 
